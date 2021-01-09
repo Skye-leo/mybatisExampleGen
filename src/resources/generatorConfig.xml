@@ -59,7 +59,7 @@
         </javaClientGenerator>
 
 <!--        配置需要生成的表名-->
-        <table tableName="sd_cart">
+        <table tableName="sd_cart" domainObjectName="SdCartEntry">
             <!-- <generatedKey column="id" sqlStatement="MySql" identity="true"/> -->
         </table>
 
