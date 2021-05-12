@@ -59,7 +59,12 @@
         </javaClientGenerator>
 
 <!--        配置需要生成的表名-->
-        <table tableName="sd_cart" domainObjectName="SdCartEntry">
+        <table tableName="gi_ordering_core_goods" domainObjectName="GiOrderingCoreGoods">
+            <!-- <generatedKey column="id" sqlStatement="MySql" identity="true"/> -->
+        </table>
+
+        <!--        配置需要生成的表名-->
+        <table tableName="gi_ordering_core_store" domainObjectName="GiOrderingCoreStore">
             <!-- <generatedKey column="id" sqlStatement="MySql" identity="true"/> -->
         </table>
 
